@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My App Portfolio</string>
+    <string name="day_theme">Day Theme</string>
+    <string name="default_theme">Default Theme</string>
+</resources>

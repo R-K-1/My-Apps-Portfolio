@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ray.myapplicationportfolio.MainActivity" >
+
+    <item android:id="@+id/default_theme"
+        android:title="@string/default_theme"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/day_theme"
+        android:title="@string/day_theme"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+</menu>
