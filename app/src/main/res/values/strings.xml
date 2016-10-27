@@ -2,4 +2,11 @@
     <string name="app_name">My App Portfolio</string>
     <string name="day_theme">Day Theme</string>
     <string name="default_theme">Default Theme</string>
+    <string name="launcher_capstone">CAPSTONE</string>
+    <string name="launcher_go_ubiquitous">GO UBIQUITOUS</string>
+    <string name="launcher_make_app">MAKE YOUR APP MATERIAL</string>
+    <string name="launcher_build_bigger">BUILD IT BIGGER</string>
+    <string name="launcher_stock_hawk">STOCK HAWK</string>
+    <string name="launcher_popular_movies">POPULAR MOVIES</string>
+    <string name="launcher_nano_apps">My Nanodegree Apps!</string>
 </resources>
