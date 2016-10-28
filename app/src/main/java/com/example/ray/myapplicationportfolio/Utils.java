@@ -23,13 +23,13 @@ public class Utils {
     public static void onActivityCreateSetTheme(Activity activity) {
         switch (sTheme) {
             case THEME_DEFAULT:
-                activity.setTheme(R.style.AppTheme);
+                activity.setTheme(R.style.AppTheme_NoActionBar);
                 break;
             case THEME_DAY:
-                activity.setTheme(R.style.AppDayTheme);
+                activity.setTheme(R.style.AppDayTheme_NoActionBar);
                 break;
             default:
-                activity.setTheme(R.style.AppTheme);
+                activity.setTheme(R.style.AppTheme_NoActionBar);
                 break;
         }
     }
