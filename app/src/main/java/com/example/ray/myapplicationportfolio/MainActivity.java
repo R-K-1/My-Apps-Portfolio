@@ -48,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onAppLauncherButtonClicked(View v){
-        // do whatever needs to be done. For example:
         Toast.makeText(getApplicationContext(), ((Button) v).getText() + " launcher clicked", Toast.LENGTH_SHORT).show();
     }
 
