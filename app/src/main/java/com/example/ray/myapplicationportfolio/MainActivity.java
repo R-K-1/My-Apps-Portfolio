@@ -5,6 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,4 +46,10 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void onAppLauncherButtonClicked(View v){
+        // do whatever needs to be done. For example:
+        Toast.makeText(getApplicationContext(), ((Button) v).getText() + " launcher clicked", Toast.LENGTH_SHORT).show();
+    }
+
 }

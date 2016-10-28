@@ -31,31 +31,37 @@
             <Button android:id="@+id/launcher_popularMovies"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="onAppLauncherButtonClicked"
                 android:text="@string/launcher_popular_movies"/>
 
             <Button android:id="@+id/launcher_stockHawk"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="onAppLauncherButtonClicked"
                 android:text="@string/launcher_stock_hawk"/>
 
             <Button android:id="@+id/launcher_buildItBigger"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="onAppLauncherButtonClicked"
                 android:text="@string/launcher_build_bigger"/>
 
             <Button android:id="@+id/launcher_makeYourApp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onAppLauncherButtonClicked"
                 android:text="@string/launcher_make_app"/>
 
             <Button android:id="@+id/launcher_goUbiquitous"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="onAppLauncherButtonClicked"
                 android:text="@string/launcher_go_ubiquitous"/>
 
             <Button android:id="@+id/launcher_capstone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="onAppLauncherButtonClicked"
                 android:text="@string/launcher_capstone"/>
 
     </LinearLayout>
